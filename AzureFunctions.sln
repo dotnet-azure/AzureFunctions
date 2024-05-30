@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRequestHandlerFunction", "MultiRequestHandlerFunction\MultiRequestHandlerFunction.csproj", "{18BD8C9C-5988-4E8D-8697-A338A45FFAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronJobFunction", "CronJobFunction\CronJobFunction.csproj", "{EA608762-889E-4D5F-A764-C79EE8D7449D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTrigger", "QueueTrigger\QueueTrigger.csproj", "{25E2106E-D33D-4FAA-886F-C64CB5477847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicTrigger", "TopicTrigger\TopicTrigger.csproj", "{5A0C8D85-6B00-4828-A5E8-4AEF3317D670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploadProcessing", "FileUploadProcessing\FileUploadProcessing.csproj", "{5A42872D-8DF0-4981-9E6A-4FC978F07834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDBTrigger", "CosmosDBTrigger\CosmosDBTrigger.csproj", "{05C887CA-402B-4A35-B6A9-271549CE7981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLTrigger", "SQLTrigger\SQLTrigger.csproj", "{7D66E89F-A05B-4285-A39A-FF1981BB024C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BD8C9C-5988-4E8D-8697-A338A45FFAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BD8C9C-5988-4E8D-8697-A338A45FFAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BD8C9C-5988-4E8D-8697-A338A45FFAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BD8C9C-5988-4E8D-8697-A338A45FFAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA608762-889E-4D5F-A764-C79EE8D7449D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA608762-889E-4D5F-A764-C79EE8D7449D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA608762-889E-4D5F-A764-C79EE8D7449D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA608762-889E-4D5F-A764-C79EE8D7449D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E2106E-D33D-4FAA-886F-C64CB5477847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E2106E-D33D-4FAA-886F-C64CB5477847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E2106E-D33D-4FAA-886F-C64CB5477847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E2106E-D33D-4FAA-886F-C64CB5477847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0C8D85-6B00-4828-A5E8-4AEF3317D670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0C8D85-6B00-4828-A5E8-4AEF3317D670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0C8D85-6B00-4828-A5E8-4AEF3317D670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0C8D85-6B00-4828-A5E8-4AEF3317D670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A42872D-8DF0-4981-9E6A-4FC978F07834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A42872D-8DF0-4981-9E6A-4FC978F07834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A42872D-8DF0-4981-9E6A-4FC978F07834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A42872D-8DF0-4981-9E6A-4FC978F07834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C887CA-402B-4A35-B6A9-271549CE7981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C887CA-402B-4A35-B6A9-271549CE7981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C887CA-402B-4A35-B6A9-271549CE7981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C887CA-402B-4A35-B6A9-271549CE7981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D66E89F-A05B-4285-A39A-FF1981BB024C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D66E89F-A05B-4285-A39A-FF1981BB024C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D66E89F-A05B-4285-A39A-FF1981BB024C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D66E89F-A05B-4285-A39A-FF1981BB024C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A53D36-5C14-41A2-A419-CA02413A703F}
+	EndGlobalSection
+EndGlobal
